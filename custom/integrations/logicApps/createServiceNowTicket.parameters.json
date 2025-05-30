@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppName": {
+      "value": "la-CreateServiceNowTicket"
+    },
+    "office365_name": {
+      "value": "office365"
+    },
+    "office365_displayName": {
+      "value": "admin@MngEnvMCAP055107.onmicrosoft.com"
+    }
+  }
+}
