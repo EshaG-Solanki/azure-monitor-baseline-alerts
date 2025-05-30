@@ -104,7 +104,7 @@
     },
     "office365_displayName": {
       "type": "string",
-      "defaultValue": "youremail@company.com (Office 365)",
+      "defaultValue": "youremail@company.com (Office 365)"
     }
   },
   "variables": {},
