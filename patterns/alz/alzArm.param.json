@@ -3,28 +3,28 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "Demo-SubRoot"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "demo-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "Demo-SubRoot"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "Demo-SubRoot"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "demo-platform"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "demo-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
     },
     "enableAMBAIdentity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAManagement": {
       "value": "Yes"
@@ -72,13 +72,13 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "d159a35e-85bc-4a8e-a58b-37fd7df968c9"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-AzureMonitorPOC"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "australiaeast"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["admin@MngEnvMCAP055107.onmicrosoft.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""

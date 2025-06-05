@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "WorkspaceResourceId": {
+            "value": "/subscriptions/d159a35e-85bc-4a8e-a58b-37fd7df968c9/resourcegroups/default-activitylogalerts/providers/microsoft.operationalinsights/workspaces/law-centralworkspace"
+        },
+        "WorkspaceLocation": {
+            "value": "australiaeast"
+        },
+        "userGivenDcrName": {
+            "value": "dcr-vmperf-default"
+        }
+    }
+}
